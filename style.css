@@ -273,3 +273,20 @@ about-col img{
     cursor: pointer;
     padding: 18px 0;
 }
+
+.video {
+        max-width: 640px;
+        margin: auto;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    @media (max-width: 767px) {
+        /* Adjust styles for smaller screens (phones) */
+        .video {
+            max-width: 100%;
+        }
+    }
